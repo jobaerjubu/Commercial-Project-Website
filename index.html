@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commercial Project</title>
+
+    <!-- link CSS  -->
+    <link rel="stylesheet" href="./src/output.css">
+    <!-- daisy ui cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/18e5171c1d.js" crossorigin="anonymous"></script>
+
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- style font -->
+    <style type="text/tailwindcss">
+        @theme  {
+      --color-clifford: #da373d;
+      --color-primary: #E76F51;
+      --color-primary-bg: rgba(231, 111, 81, 0.1);
+     --font-manrope:  "Manrope", sans-serif;
+    }
+  </style>
+
+</head>
+
+<body class="md:full mx-auto font-manrope">
+    <header class="mb-10">
+        <nav class="lg:p-10">
+            <div class="navbar bg-base-100 ">
+
+                <!-- Left Side (Logo/Text) -->
+                <div class="navbar-start">
+                    <a class="btn btn-ghost text-3xl font-bold">
+                        <span
+                            class="bg-[#ABEF5F] text-xl -rotate-45 rounded-full h-7 w-7 flex items-center justify-center">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span> Rinterio</a>
+                </div>
+
+                <!-- Center (Menu for large screen only) -->
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li class="text-xl"><a>Home</a></li>
+                        <li class="text-xl"><a>Service</a></li>
+                        <li class="text-xl"><a>Portfolio</a></li>
+                        <li class="text-xl"><a>Blogs</a></li>
+                        <li class="text-xl"><a>Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Right Side (Dropdown for small screen + Button) -->
+                <div class="navbar-end">
+                    <!-- Dropdown visible on small screen -->
+                    <div class="dropdown lg:hidden">
+                        <div tabindex="0" role="button" class="btn btn-ghost">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow right-0">
+                            <li><a>Home</a></li>
+                            <li><a>Service</a></li>
+                            <li><a>Portfolio</a></li>
+                            <li><a>Blogs</a></li>
+                            <li><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Extra Button (always visible) -->
+                    <a class="hidden lg:inline-flex bg-[#ABEF5F] p-3 rounded-2xl text-xl font-bold items-center gap-3">
+                        Book Consult
+                        <span
+                            class="bg-black -rotate-45 text-white rounded-full h-7 w-7 flex items-center justify-center">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </a>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- A barn house of this design has a striking appearance section -->
+        <section>
+
+            <!-- banner image  -->
+            <div class="flex  justify-center"><img src="./assets/banner.png" alt=""></div>
+
+            <!-- banner container  -->
+            <div class="text-center p-15">
+                <h3 class="sm:text-3xl lg:text-6xl font-bold mb-5">A barn house of this design has a <br> striking
+                    appearance</h3>
+                <p class="text-sm mb-5">The barn house captivates with its blend of rustic charm and modern
+                    sophistication, featuring
+                    weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.
+                </p>
+
+                <button class="bg-[#ABEF5F] rounded-3xl p-2 font-bold"> View Details <span
+                        class="bg-[#7eb63f] text-xl -rotate-45 rounded-full h-7 w-7 inline-flex items-center justify-center">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span> </button>
+            </div>
+        </section>
+
+
+        <!-- We design thoughtful, liveable spaces section  -->
+        <section>
+
+        </section>
+    </main>
+
+    <footer>
+
+
+    </footer>
+
+
+
+</body>
+
+</html>
